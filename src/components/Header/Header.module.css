@@ -1,0 +1,30 @@
+.header {
+    grid-area: header;
+    height: 100px;
+    width: 100%;
+    background-color: #87aebc;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 88px;
+    height: 88px;
+    padding: 12px 0 0 10px;
+}
+
+.loginBlock {
+    float: right;
+    margin: 34px 18px 0 0 ;
+}
+
+.loginBlock a {
+    border-radius: 10px;
+    border: 5px solid #4aa0a6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #2e51ff;
+    background-color: #5ed4da;
+    padding: 8px 15px;
+}

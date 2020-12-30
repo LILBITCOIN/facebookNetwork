@@ -1,0 +1,73 @@
+* {
+    color: #000;
+}
+.form_control.error input,
+.form_control.error textarea {
+
+    border: 2px solid red;
+}
+.loginFormWrapper {
+    display: flex;
+    border: 2px solid #747474;
+    background-color: #bbbbbb;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.wrapper {
+    text-align: center;
+    display: inline-block;
+    margin-left: 32%;
+}
+.form_control.error span {
+    color: red;
+}
+
+.form_summary_error {
+    border: 2px solid red;
+    padding: 5px;
+    color: red;
+}
+
+.loginFormWrapper {
+    text-align: center;
+}
+div p {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: "Ink Free", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+div > input[placeholder] {
+    padding-left: 10px;
+}
+div > input {
+    width: 300px;
+    height: 22px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 3px solid #001f88;
+}
+.remember {
+    margin-top: 0;
+}
+.loginButton {
+    color: #1a183d;
+    font-weight: bold;
+    border: 3px solid #2f2c72;
+    background-color: transparent;
+    font-family: initial;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

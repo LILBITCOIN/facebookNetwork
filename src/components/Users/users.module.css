@@ -1,0 +1,57 @@
+.usersWrapp {
+    /*background-color: red;*/
+}
+.photo {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.info {
+    margin: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.postsWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    text-align: center;
+}
+.status {
+    margin-left: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.main {
+    /*border: 1px solid #000;*/
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 20px 3px rgba(0,0,0,0.76);
+    margin-top: 30px;
+}
+div button {
+    color: #d8ffff;
+    margin-right: 95px;
+    border: none;
+    background-color: #00ab4d;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.name {
+    position: absolute;
+    margin: 10px;
+    margin-left: 25px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: "Ink Free", sans-serif;
+}
+
+.country {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}

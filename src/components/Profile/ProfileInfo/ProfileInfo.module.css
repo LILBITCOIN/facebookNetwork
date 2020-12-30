@@ -1,0 +1,25 @@
+.description_block {
+    padding: 15px;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.name {
+    position: absolute;
+    top: 20px;
+    margin: 10px;
+}
+
+.photo {
+    width: 75px;
+}
+
+.inblock {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.status {
+    cursor: pointer;
+}
